@@ -1,5 +1,5 @@
 // https://www.codewars.com/kata/last-digits-of-n-2-equals-equals-n/train/java
-//works, but slow
+//works, but slow, inacceptable
 
 import java.math.BigInteger;
 import java.util.ArrayList;
