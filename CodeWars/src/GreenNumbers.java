@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/last-digits-of-n-2-equals-equals-n/train/java
 // tests uses one and same object for getting green numbers, so lets prebuild array of greenies up to the declared limit (5000).
-// after that we simply get needed by index, and ye, we need some space.
+// after that we simply get needed by index, and ye, we'll need some space.
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -33,7 +33,7 @@ public class GreenNumbers {
 		BigInteger two = new BigInteger("2");
 		while (found <= max) {
 			
-			//visit wiki to get it (automorph) (its recursive for any n -> (3*n*n - 2*n*n*n) mod 10^(2*k) where k is amount of digits in n)
+			//visit wiki to get it (automorph) (its recursive for any n -> next = (3*n*n - 2*n*n*n) mod 10^(2*k) where k is amount of digits in n)
 			storage = storage.multiply(BigInteger.TEN);
 			prev5Pow2 = prev5.multiply(prev5);
 			checker = prev5.multiply(two);
