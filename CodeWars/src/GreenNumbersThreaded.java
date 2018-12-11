@@ -1,6 +1,7 @@
 // https://www.codewars.com/kata/last-digits-of-n-2-equals-equals-n/train/java
 //works, but slow, inacceptable
-
+//
+//totally shit, dont look pls, algo sux
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Date;
